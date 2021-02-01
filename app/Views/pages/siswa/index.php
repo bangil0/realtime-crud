@@ -48,7 +48,7 @@
         $(document).ready(function(){
             // menampilkan daftar siswa
             showSiswa();
-            
+            // 21462231767a3927aeb6 ganti dengan key pusher channel anda 
             var pusher = new Pusher('21462231767a3927aeb6', {
             cluster: 'ap1'
             });

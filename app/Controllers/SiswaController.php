@@ -22,9 +22,9 @@ class SiswaController extends BaseController
         ];
 
         $this->pusher = new \Pusher\Pusher(
-            '21462231767a3927aeb6',
-            '65c86d94bb3ddddcba6b',
-            '1147591',
+            '21462231767a3927aeb6', #ganti dengan key pusher channel anda
+            '65c86d94bb3ddddcba6b', #ganti dengan secret pusher channel anda
+            '1147591', #ganti dengan app_id pusher channel anda
             $this->optionPusher,
         );
 
